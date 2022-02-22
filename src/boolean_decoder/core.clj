@@ -5,7 +5,8 @@
   (println "Hello, Welcome to the boolean decoder!")
   (println "Please, enter the value to decode:")
   (let [encoded-val (Integer/parseInt (read-line))]
-    (println encoded-val)
+    (if (= 1 encoded-val)
+      (println true))
     )
   )
 
